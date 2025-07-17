@@ -1215,7 +1215,7 @@
         const newZ = car.position.z + Math.cos(car.rotation.y) * speed;
         
         // Boundary detection and collision response
-        const boundaryMargin = -50; // Negative value extends beyond ground edges
+        const boundaryMargin = 0; // Margin to keep car within the visible 600x600 walls
         const maxX = groundSize/2 - boundaryMargin;
         const maxZ = groundSize/2 - boundaryMargin;
         const minX = -groundSize/2 + boundaryMargin;
