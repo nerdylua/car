@@ -1,2 +1,2 @@
-## Issa a CAR game
+## Issa CAR game
 Done with the help of Gemini 2.5 Pro
